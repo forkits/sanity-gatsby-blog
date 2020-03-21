@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+
 :root {
-  --font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-sans: "Comfortaa", -apple-system, BlinkMacSystemFont, sans-serif;
 
   --color-black: #202123;
   --color-dark-gray: #32373e;

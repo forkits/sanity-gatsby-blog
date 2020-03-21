@@ -1,4 +1,4 @@
-@import './custom-properties.css';
+@import "./custom-properties.css";
 
 html {
   font-family: var(--font-family-sans);
@@ -8,14 +8,45 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: var(--color-white);
-  color: var(--color-black);
+  background: var(--color-black);
+  color: var(--color-white);
   margin: 0;
 }
 
-html,
+/* html,
 body,
 body > div,
 body > div > div {
   height: 100%;
+} */
+
+.header-module--root--2tx-i {
+  position: sticky;
+  top: 0;
+  background: var(--color-black);
+}
+
+.container-module--root--3L_T4,
+.layout-module--content--i0A67 {
+  background: var(--color-dark-gray) !important;
+}
+
+.blog-post-preview-module--inList--2fZz9.blog-post-preview-module--root--ewoM3,
+.blog-post-preview-module--leadMediaThumb--1muTE {
+  transition: all 1s;
+}
+.blog-post-preview-module--leadMediaThumb--1muTE img {
+  transition: all 1s;
+}
+.blog-post-preview-module--inList--2fZz9.blog-post-preview-module--root--ewoM3:hover
+  .blog-post-preview-module--leadMediaThumb--1muTE {
+  box-shadow: 0px 50px 60px var(--color-black);
+  border-radius: 100px 0px 0px 0px;
+  z-index: 10;
+}
+
+.blog-post-preview-module--inList--2fZz9.blog-post-preview-module--root--ewoM3:hover
+  .blog-post-preview-module--leadMediaThumb--1muTE
+  img {
+  border-radius: 100px 0px 0px 0px;
 }
